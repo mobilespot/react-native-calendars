@@ -27,8 +27,8 @@ import CalendarList, {CalendarListProps} from '../calendar-list';
 import ReservationList, {ReservationListProps}  from './reservation-list';
 
 
-const HEADER_HEIGHT = 104;
-const KNOB_HEIGHT = 24;
+const HEADER_HEIGHT = 150;
+const KNOB_HEIGHT = 50;
 
 export type AgendaProps = CalendarListProps & ReservationListProps & {
   /** the list of items that have to be displayed in agenda. If you want to render item as empty date

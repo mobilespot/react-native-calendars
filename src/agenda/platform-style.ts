@@ -4,9 +4,9 @@ import {Theme} from '../types';
 export default function platformStyles(appStyle: Theme) {
   return {
     knob: {
-      width: 38,
-      height: 7,
-      marginTop: 10,
+      width: 50,
+      height: 10,
+      marginTop: 20,
       borderRadius: 3,
       backgroundColor: appStyle.agendaKnobColor
     },
